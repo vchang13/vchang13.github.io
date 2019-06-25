@@ -1,0 +1,151 @@
+#resume {
+  background-color: #ddd;
+  height: auto;
+  margin-top: -30px;
+  padding-top: 60px;
+  font-size: 19px;
+  line-height: 34px;
+  -webkit-font-smoothing: antialiased;
+}
+
+#navbar {
+  display: flex;
+}
+
+nav {
+  text-align: center;
+  padding: 0;
+  background: #DFB4A6;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  overflow: hidden;
+/*   column-count: 4; */
+  /* display: block;
+  position: sticky;
+  top: 0;
+  left: 0px;
+  z-index: 999;
+  width: 100%; */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+/*   column-count: 4; */
+  /* display: flex;
+  margin: 0;
+  padding: 0 100px;
+  float: left; */
+
+}
+
+nav ul li {
+/*   column-count: 1; */
+  padding: 2vw;
+  /* list-style: none; */
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px, 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+div {
+  display: block;
+}
+
+.inner {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.tagline {
+  text-align: center;
+  font-family: 'Open Sans', sans-sans-serif;
+  letter-spacing: 0.3em;
+  font-weight: 700;
+  padding-bottom: 50px;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.section-tagline {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.3em;
+  font-weight: 700;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #CEC8C8;
+  font-size: 11px;
+  text-transform: uppercase;
+
+}
+
+img.icon {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  float: left;
+  display: block;
+  margin-left: -95px;
+  margin-top: 5px;
+  background-color: #fff;
+  opacity: 0.8;
+  z-index: 0;
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all .4s ease;
+}
+
+a img {
+  border: none;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+}
+
+.right {
+  float: right;
+}
+
+ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.skill {
+  border: 1px solid #50a9d1;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: auto;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 1.33333em;
+  padding: 7px 18px;
+  margin-top: 0.8em;
+  border-radius: 8px;
+}
