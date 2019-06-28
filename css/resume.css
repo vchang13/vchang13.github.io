@@ -8,6 +8,12 @@
   -webkit-font-smoothing: antialiased;
 }
 
+body {
+  font-size: 14px;
+  font-family: 'Karla', sans-serif;
+  line-height: 20px;
+}
+
 #navbar {
   display: flex;
 }

@@ -2,6 +2,19 @@
   display: flex;
 }
 
+body {
+  background: #eee;
+  height: auto;
+  margin-top: -30px;
+  text-align: center;
+  padding: 60px 0 60px 0;
+  font-size: 26px;
+  line-height: 40px;
+  font-family: 'Karla', sans-serif;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+}
+
 nav {
   text-align: center;
   padding: 0;
@@ -61,4 +74,18 @@ ul {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
+}
+
+.portfolio-thumb {
+  margin: 20px;
+  background-color: white;
+  display: inline-block;
+}
+
+.portfolio-thumb p {
+  font-size: 14px;
+  padding: 25px;
+  padding-top: 0px;
+  text-align: left;
+  line-height: 24px;
 }

@@ -62,3 +62,19 @@ ul {
   margin-inline-end: 0px;
   padding-inline-start: 40px;
 }
+
+body {
+  font-size: 14px;
+  font-family: 'Karla', sans-serif;
+  line-height: 20px;
+}
+
+.inner {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+center {
+  display: block;
+  text-align: -webkit-center;
+}
