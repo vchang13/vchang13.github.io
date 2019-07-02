@@ -12,6 +12,8 @@ body {
   line-height: 40px;
   font-family: 'Karla', sans-serif;
   color: #333;
+  max-width: 1024px;
+  margin: 0 auto;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -82,10 +84,31 @@ ul {
   display: inline-block;
 }
 
+.portfolio-thumb a {
+  text-decoration: underline;
+}
+
 .portfolio-thumb p {
   font-size: 14px;
   padding: 25px;
   padding-top: 0px;
   text-align: left;
   line-height: 24px;
+}
+
+.portfolio-thumb img {
+  width: 100%;
+  border: none;
+}
+
+div {
+  display: block;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
